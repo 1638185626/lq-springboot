@@ -31,7 +31,7 @@ public class CustomSender {
             @Override
             public Message postProcessMessage(Message message) throws AmqpException
             {
-                //消息延迟5秒
+                // 消息延迟5秒
                 message.getMessageProperties().setHeader("x-delay", 5000);
                 return message;
             }
