@@ -1,0 +1,11 @@
+
+spring:
+  # ????
+  application:
+    name: rabbitmq-delayed
+  # RabbitMQ????
+  rabbitmq:
+    host: 101.34.23.190
+    port: 5672
+    username: guest
+    password: guest
