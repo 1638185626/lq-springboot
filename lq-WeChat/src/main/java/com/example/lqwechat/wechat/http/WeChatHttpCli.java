@@ -71,7 +71,8 @@ public class WeChatHttpCli implements WeChatHttp{
                 log.error("[微信公众号token获取失败] {}",wxRes);
             }
             accessToken = wxRes.getString("access_token");
-            if (null == accessToken){
+            if (null != accessToken){
+                // 保存token到redis
                 break;
             }
         }

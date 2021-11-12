@@ -1,4 +1,4 @@
-package com.example.lqredis.utils;
+package com.example.lqmybatis;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.DataType;
@@ -388,7 +388,7 @@ public class RedisUtil {
      * @param hashKey 字段名
      * @param value   值
      */
-    public void hPut(String key, String hashKey, Object value) {
+    public void hPut(String key, String hashKey, String value) {
         redisTemplate.opsForHash().put(key, hashKey, value);
     }
 
@@ -398,7 +398,7 @@ public class RedisUtil {
      * @param key  哈希表
      * @param maps 键值对集合
      */
-    public void hPutAll(String key, Map<String, Object> maps) {
+    public void hPutAll(String key, Map<String, String> maps) {
         redisTemplate.opsForHash().putAll(key, maps);
     }
 
