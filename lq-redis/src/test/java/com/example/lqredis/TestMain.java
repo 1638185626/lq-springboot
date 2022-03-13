@@ -1,5 +1,11 @@
 package com.example.lqredis;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author liuqing01
  * @version 1.0
@@ -10,10 +16,6 @@ public class TestMain {
 
 
     public static void main(String[] args) {
-        Long a = 0L;
-        add(a);
-
-        System.out.println("a===" + a);
     }
 
 
