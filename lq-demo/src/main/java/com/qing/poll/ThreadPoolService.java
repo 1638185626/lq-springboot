@@ -77,18 +77,14 @@ public class ThreadPoolService {
     public static void main(String[] args) {
         for (int i = 0;i<20;i++){
             int finalI = i;
-            Runnable r = new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println("当前线程为:"+ finalI);
-                    try {
-                        Thread.sleep(1*1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+            newTask(() -> {
+                System.out.println("当前线程为:"+ finalI);
+                try {
+                    Thread.sleep(1*1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
-            };
-            newTask(r);
+            });
         }
     }
 }
