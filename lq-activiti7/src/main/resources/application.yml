@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://60.205.221.238:3306/ihrm?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false&nullCatalogMeansCurrent=true
+    username: root
+    password: '!liu7751541'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  activiti:
+
+    database-schema-update: true
+    db-history-used: true
+    history-level: full
+    check-process-definitions: false
+    async-executor-activate: true

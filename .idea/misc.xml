@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lq-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-WeChat/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Prometheus/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-dingding/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-rabbit-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-rocket-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-WebSocket/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-drools/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-es/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/activiti7/pom.xml" />
+        <option value="$PROJECT_DIR$/lq-activiti7/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

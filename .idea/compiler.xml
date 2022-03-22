@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lq-kafka" />
+        <module name="springbootdroolstest2" />
+        <module name="lq-dingding" />
+        <module name="Prometheus" />
+        <module name="lq-WebSocket" />
+        <module name="lq-redis" />
+        <module name="lq-webflux" />
+        <module name="lq-WeChat" />
+        <module name="lq-activiti7" />
+        <module name="lq-oauth2" />
+        <module name="lq-mybatis" />
+        <module name="lq-mongo" />
+        <module name="lq-es" />
+        <module name="lq-rocket-mq" />
+        <module name="lq-rabbit-mq" />
+        <module name="lq-sentinel" />
+      </profile>
+      <profile name="Annotation profile for lq-demo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="lq-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="lq-activiti7" target="1.8" />
+      <module name="lq-demo" target="1.8" />
+      <module name="lq-dingding" target="1.8" />
+      <module name="lq-es" target="1.8" />
+      <module name="lq-kafka" target="1.8" />
+      <module name="lq-mongo" target="1.8" />
+      <module name="lq-mybatis" target="1.8" />
+      <module name="lq-oauth2" target="1.8" />
+      <module name="lq-rabbit-mq" target="1.8" />
+      <module name="lq-redis" target="1.8" />
+      <module name="lq-rocket-mq" target="1.8" />
+      <module name="lq-sentinel" target="1.8" />
+      <module name="lq-webflux" target="1.8" />
+      <module name="lq-WebSocket" target="1.8" />
+      <module name="lq-WeChat" target="1.8" />
+      <module name="Prometheus" target="1.8" />
+      <module name="springbootdroolstest2" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Prometheus" options="-parameters" />
+      <module name="lq-WeChat" options="-parameters" />
+      <module name="lq-WebSocket" options="-parameters" />
+      <module name="lq-dingding" options="-parameters" />
+      <module name="lq-mongo" options="-parameters" />
+      <module name="lq-mybatis" options="-parameters" />
+      <module name="lq-oauth2" options="" />
+      <module name="lq-rabbit-mq" options="-parameters" />
+      <module name="lq-redis" options="-parameters" />
+      <module name="lq-rocket-mq" options="-parameters" />
+    </option>
+  </component>
+</project>

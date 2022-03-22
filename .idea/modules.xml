@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Prometheus/Prometheus.iml" filepath="$PROJECT_DIR$/Prometheus/Prometheus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-WeChat/lq-WeChat.iml" filepath="$PROJECT_DIR$/lq-WeChat/lq-WeChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-WebSocket/lq-WebSocket.iml" filepath="$PROJECT_DIR$/lq-WebSocket/lq-WebSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-activiti7/lq-activiti7.iml" filepath="$PROJECT_DIR$/lq-activiti7/lq-activiti7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-demo/lq-demo.iml" filepath="$PROJECT_DIR$/lq-demo/lq-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-dingding/lq-dingding.iml" filepath="$PROJECT_DIR$/lq-dingding/lq-dingding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-es/lq-es.iml" filepath="$PROJECT_DIR$/lq-es/lq-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-kafka/lq-kafka.iml" filepath="$PROJECT_DIR$/lq-kafka/lq-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-mongo/lq-mongo.iml" filepath="$PROJECT_DIR$/lq-mongo/lq-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-mybatis/lq-mybatis.iml" filepath="$PROJECT_DIR$/lq-mybatis/lq-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-oauth2/lq-oauth2.iml" filepath="$PROJECT_DIR$/lq-oauth2/lq-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-rabbit-mq/lq-rabbit-mq.iml" filepath="$PROJECT_DIR$/lq-rabbit-mq/lq-rabbit-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-redis/lq-redis.iml" filepath="$PROJECT_DIR$/lq-redis/lq-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-rocket-mq/lq-rocket-mq.iml" filepath="$PROJECT_DIR$/lq-rocket-mq/lq-rocket-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-sentinel/lq-sentinel.iml" filepath="$PROJECT_DIR$/lq-sentinel/lq-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lq-springboot.iml" filepath="$PROJECT_DIR$/.idea/lq-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lq-webflux/lq-webflux.iml" filepath="$PROJECT_DIR$/lq-webflux/lq-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-drools/springbootdroolstest2.iml" filepath="$PROJECT_DIR$/spring-boot-drools/springbootdroolstest2.iml" />
+    </modules>
+  </component>
+</project>
