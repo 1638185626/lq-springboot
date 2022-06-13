@@ -1,0 +1,16 @@
+
+spring:
+  # 服务名称
+  application:
+    name: rabbitmq-delayed
+  # RabbitMQ配置
+  rabbitmq:
+    # 开启发布者确认模式
+    publisher-confirm-type: correlated
+    publisher-returns: true    # 开启发送端消息抵达队列的确认
+    host: 101.34.23.190
+    port: 5672
+    username: guest
+    password: guest
+  template: #只有抵达队列，以异步发送优先回调returnCallback
+  mandatory: true

@@ -1,0 +1,21 @@
+# 应用名称
+
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+spring:
+  application:
+    name: lq-es
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+
+elasticsearch:
+  schema: http
+  address: 192.168.31.201:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
+
