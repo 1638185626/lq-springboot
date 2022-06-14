@@ -24,7 +24,7 @@ class ProductListenerTest {
 
     @Test
     public void imprtExcel(){
-        String fileName = "";
+        String fileName = "src/main/resources/demo01.xlsx";
         // 这里 需要指定读用哪个class去读，然后读取第一个sheet 文件流会自动关闭
         // 这里每次会读取100条数据 然后返回过来 直接调用使用数据就行
         EasyExcel.read(fileName, ProductExcelDTO.class, new PageReadListener<ProductExcelDTO>(dataList -> {
@@ -35,7 +35,7 @@ class ProductListenerTest {
 
         // 写法2：
         // 匿名内部类 不用额外写一个DemoDataListener
-        fileName = "";
+         fileName = "src/main/resources/demo01.xlsx";
         // 这里 需要指定读用哪个class去读，然后读取第一个sheet 文件流会自动关闭
         EasyExcel.read(fileName, ProductExcelDTO.class, new ReadListener<ProductExcelDTO>() {
             /**
@@ -81,7 +81,7 @@ class ProductListenerTest {
     public  void listenerImportExcel() {
         // 有个很重要的点 DemoDataListener 不能被spring管理，要每次读取excel都要new,然后里面用到spring可以构造方法传进去
         // 写法3：
-        String fileName = "/Users/liuqing/ideaProject/lq-springboot/lq-easy-excel/src/main/resources/demo01.xlsx";
+        String fileName = "src/main/resources/demo01.xlsx";
         // 这里 需要指定读用哪个class去读，然后读取第一个sheet 文件流会自动关闭
         EasyExcel.read(fileName, ProductExcelDTO.class, new ProductListener()).sheet().doRead();
 
@@ -94,7 +94,7 @@ class ProductListenerTest {
     @Test
     public  void listenerImportExcels() {
         // 写法4
-        String fileName = "demo.xlsx";
+        String fileName = "src/main/resources/demo01.xlsx";
         // 一个文件一个reader
         try (ExcelReader excelReader = EasyExcel.read(fileName, ProductExcelDTO.class, new ProductListener()).build()) {
             // 构建一个sheet 这里可以指定名字或者no
