@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
+import java.io.IOException;
 
 @SpringBootTest
 class LqMybatisApplicationTests {
@@ -14,7 +15,23 @@ class LqMybatisApplicationTests {
 
     @Test
     void contextLoads() {
-        juejinJob.configureTasks();
+        try {
+            juejinJob.configureTasks();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
+
+    @Test
+    void threadTest(){
+        Thread start = new Thread(() -> {
+            System.out.println(Thread.currentThread().getName() + "线程名称");
+        });
+        start.start();
+    }
+
+
+
 
 }

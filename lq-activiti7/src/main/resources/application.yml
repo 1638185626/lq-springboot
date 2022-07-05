@@ -5,9 +5,11 @@ spring:
     password: '!liu7751541'
     driver-class-name: com.mysql.cj.jdbc.Driver
   activiti:
-
     database-schema-update: true
     db-history-used: true
     history-level: full
     check-process-definitions: false
     async-executor-activate: true
+
+  main:
+    allow-bean-definition-overriding: true

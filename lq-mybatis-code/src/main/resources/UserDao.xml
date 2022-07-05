@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.lqmybatiscode.dao.UserDao">
+
+    <select id="getUserById" parameterType="com.example.lqmybatiscode.model.User" resultType="com.example.lqmybatiscode.model.User">
+        select * from users where id = 1
+    </select>
+
+</mapper>

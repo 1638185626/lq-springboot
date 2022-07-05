@@ -20,7 +20,8 @@ import java.util.Collection;
  **/
 @Component
 public class UserService {
-    @Qualifier("userDetailsService")
+
+
     @Autowired
     private UserDetailsService userDetailsService;
 
@@ -68,5 +69,6 @@ public class UserService {
             }
         }));
         org.activiti.engine.impl.identity.Authentication.setAuthenticatedUserId(username);
+
     }
 }
