@@ -16,7 +16,7 @@ public class SyncProducer {
         // 实例化消息生产者Producer
         DefaultMQProducer producer = new DefaultMQProducer("please_rename_unique_group_name");
         // 设置NameServer的地址
-        producer.setNamesrvAddr("101.34.23.190:9876");
+        producer.setNamesrvAddr("60.205.221.238:9876");
         // 启动Producer实例
         producer.start();
         for (int i = 0; i < 100; i++) {

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: gateway-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+    gateway:
+      routes:
+        - id: user-provider
+          uri: lb://user-provider
+          predicates:
+            - Path=/user/**
+          filters:
+            - RewritePath=/user(?<segment>/?.*), $\{segment}
+    compatibility-verifier:
+      # 取消SpringCloud SpringCloudAlibaba SpringBoot 等的版本检查
+      enabled: false
+server:
+  port: 9203
+debug: true
